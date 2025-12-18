@@ -73,7 +73,6 @@ export function App() {
           <AboutSection
             searchQuery={searchQuery}
             onSearchChange={setSearchQuery}
-            students={students}
           />
 
           <div className="hidden sm:block mb-8">

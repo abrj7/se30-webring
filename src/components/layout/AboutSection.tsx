@@ -1,19 +1,12 @@
 import { SearchBar } from '../SearchBar';
-import { WebRingWidget } from '../WebRingWidget';
-import type { Student } from '../../types';
 import { UI_TEXT, EXTERNAL_URLS } from '../../constants';
 
 interface AboutSectionProps {
   searchQuery: string;
   onSearchChange: (value: string) => void;
-  students: Student[];
 }
 
-function getWebsiteUrls(students: Student[]): string[] {
-  return students.map((s) => s.website).filter((url): url is string => url !== undefined);
-}
-
-export function AboutSection({ searchQuery, onSearchChange, students }: AboutSectionProps) {
+export function AboutSection({ searchQuery, onSearchChange }: AboutSectionProps) {
   return (
     <div className="sm:hidden text-white/90">
       <h1 className="text-3xl font-bold text-white mb-4">{UI_TEXT.APP_TITLE}</h1>
