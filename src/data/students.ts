@@ -23,7 +23,7 @@ export const students: Student[] = [
   },
   {
     name: "William Yang",
-    website: "williamyang.ca",
+    website: "https://williamyang.ca",
     pfp: "assets/pfps/william-yang.png" // Do not include 'public/' in the path!
   },
   // Add your name right above this comment!
