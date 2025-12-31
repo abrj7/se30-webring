@@ -29,7 +29,7 @@ export const students: Student[] = [
   {
     name: "Sarah Yoo",
     website: "https://sarahyoo.vercel.app",
-    pfp: "assets/pfps/sarah-yoo.png" 
+    pfp: "assets/pfps/sarah-yoo.jpg" 
   },
   // Add your name right above this comment!
   // Example:
