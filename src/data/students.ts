@@ -49,7 +49,7 @@ export const students: Student[] = [
   {
     name: "Dongwan (Jamie) Seoh",
     website: "https://dwseoh.com",
-    pfp:"assets/pfps/dongwan-jamie-seoh"
+    pfp:"assets/pfps/dongwan-jamie-seoh.jpg"
   }
   // Add your name right above this comment!
   // Example:
